@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* font family */
+@font-face {
+    font-family: "Super_frosting";
+    src: url(./Fonts/super_frosting/Super\ Frosting.ttf);
+    font-weight: normal;
+    font-size: normal;
+}
+/* END */
+/* header session */
+header{
+    background-color: white;
+    width: 100vw;
+    height: 60px;
+}
+.header-container{
+     position:fixed;
+    background-color: white;
+    width: 100vw;
+    height: 60px;
+    display: flex;
+}
+.logo-container{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#miso-logo{
+    text-decoration: none;
+    color:#942907;
+    font-family:Super_frosting;
+    font-weight: bolder;
+    font-size: 45px;
+}
+.action-container{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 0 55px;
+}
+.action{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.action a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-transform: capitalize;
+    margin: 0 10px;
+}
+.action a:hover{
+    font-weight: bolder;
+}
+.search-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 30%;
+}
+#search-input{
+    height: 30px;
+    width: 120px;
+    background-color: #f7f7f7;
+    border-style: none;
+    outline: none;
+    border-radius: 20px;
+    text-align:center 
+}
+.search-icon{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color:#f7f7f7;
+}
+/* End */
+/* main session */
+main{
+    margin: 10px 20px;
+}
+.main-container{
+    margin-top: 20px;
+}
+.banner-container img{
+    height: 1%;
+    width: 100%;
+    border-radius: 30px;
+}
+.filter-container{
+    margin: 50px 0;
+}
+.filter-header{    
+    display: flex;
+    justify-content: center;
+    /* margin-top: 10px; */
+}
+.filter-headline{
+    margin: 3px;
+}
+#filter-secondline{
+    color: #ebb65d;
+}
+.filter-mainu-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.filter-mainu{
+    /* background-color: #d91bf7; */
+    margin: 3px;
+    height: 1%;
+    width: 8%;
+    border-radius: 55px;
+    
+}
+.filter-mainu a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+     font-size: min(1vw);
+     align-items: center;
+}
+.dishcard-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.dishcard{
+    height: 15em;
+    width: 10em;
+    border-radius: 15px;
+    margin: 5px;
+}
+#card-image img{
+     height: 15em;
+    width: 10em;
+    border-radius: 15px;
+}
+
+/* End */
