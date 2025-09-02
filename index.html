@@ -5,94 +5,305 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Recipe Finder</title>
     <link rel="stylesheet" href="./index.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
   </head>
   <body>
     <!-- this is the navigation bar -->
     <header>
       <div class="header-container">
-      <div class="logo-container">
-        <span><a id="miso-logo" href="#">Miso</a></span>
-      </div>
-      <div class="action-container">
-        <span class="action"><a id="home" href="#">home</a></span>
-        <span class="action"><a id="about" href="#">about</a></span>
-        <span class="action"><a id="recipes" href="#">recipes</a></span>
-        <span class="action"><a id="blog" href="#">blog</a></span>
-        <span class="action"><a id="contact" href="#">contact</a></span>
-      </div>
-      <div class="search-container">
-        <div class="search-text"><input id="search-input" type="text" placeholder="Search...">
+        <div class="logo-container">
+          <span><a id="miso-logo" href="#">Miso</a></span>
         </div>
-        <div class="search-icon"> <i id="search-icon" class="fa-solid fa-magnifying-glass"></i></div>
-        <div><i class="fa-solid fa-circle-user"></i>
+        <div class="action-container">
+          <span class="action"><a id="home" href="#">home</a></span>
+          <span class="action"><a id="about" href="#">about</a></span>
+          <span class="action"><a id="recipes" href="#">recipes</a></span>
+          <span class="action"><a id="blog" href="#">blog</a></span>
+          <span class="action"><a id="contact" href="#">contact</a></span>
         </div>
-      </div>   
+        <div class="search-container">
+          <div class="search-text">
+            <input id="search-input" type="text" placeholder="Search..." />
+          </div>
+          <div class="search-icon">
+            <i id="search-icon" class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div><i class="fa-solid fa-circle-user"></i></div>
+        </div>
       </div>
-     
     </header>
-<!-- END -->
-<!-- this is the main part  -->
+    <!-- END -->
+    <!-- this is the main part  -->
     <main>
       <div class="main-container">
-         <!-- banner session -->
-      <div class="banner-container">
-        <img id="banner" src="./src/Image/Banner/banner.png" alt="banner image">
-    </div>
-    <!-- END -->
-     <!-- filter session -->
-    <div class="filter-container">
-      <div class="filter-header">
-      <h1 class="filter-headline" id="filter-firstline">What to<h1 class="filter-headline" id="filter-secondline"> Cook </h1><h1 class="filter-headline" id="filter-question">?</h1></h1>
-    </div>
-    <div class="filter-mainu-container">
-      <span class="filter-mainu"><a href="#">all type</a></span>
-      <span class="filter-mainu"><a href="#">appetizers</a></span>
-      <span class="filter-mainu"><a href="#">main courses</a></span>
-      <span class="filter-mainu"><a href="#">salads & sides</a></span>
-      <span class="filter-mainu"><a href="#">vegetarian delights</a></span>
-      <span class="filter-mainu"><a href="#">internatinal flavors</a></span>
-      <span class="filter-mainu"><a href="#">desserts & sweets</a></span>
-      <span class="filter-mainu"><a href="#">healthy eats</a></span>
-      <span class="filter-mainu"><a href="#">quick & easy supper</a></span>
-    </div>
-    </div>
-    <!-- END -->
-     <div class="dishcard-container">
-      <div class="dishcard"><a id="card-image" href="#"><img src="./src/Image/Banner/card/Beige Modern Breakfast Suggestion 1.png" alt="toasted bread with berries"></a></div>
-      <div class="dishcard"><a id="card-image" href="#"><img src="./src/Image/Banner/card/blue and beige organic recipe 2.png" alt="toasted bread with berries"></a></div>
-      <div class="dishcard"><a id="card-image" href="#"><img src="./src/Image/Banner/card/Brown Green White Playful Croissant 3.png" alt="toasted bread with berries"></a></div>
-      <div class="dishcard"><a id="card-image" href="#"><img src="./src/Image/Banner/card/Mocktail drink 4.png" alt="toasted bread with berries"></a></div>
-      <div class="dishcard"><a id="card-image" href="#"><img src="./src/Image/Banner/card/Philippines Local Food  5.png" alt="toasted bread with berries"></a></div>
-      <div class="dishcard"><a id="card-image" href="#"><img src="./src/Image/Banner/card/Philippines Local Food Cooking Carousel 6.png" alt="toasted bread with berries"></a></div>
-      <div class="dishcard"><a id="card-image" href="#"><img src="./src/Image/Banner/card/pizza margaritas 7.png" alt="toasted bread with berries"></a></div>
-      <div class="dishcard"><a id="card-image" href="#"><img src="./src/Image/Banner/card/Red Pink Strawberry Beverage 8.png" alt="toasted bread with berries"></a></div>
-      <div class="dishcard"><a id="card-image" href="#"><img src="./src/Image/Banner/card/toasted bread with berries 9.png" alt="toasted bread with berries"></a></div>
-      <div class="dishcard"><a id="card-image" href="#"><img src="./src/Image/Banner/card/sushi toast 10.png" alt="toasted bread with berries"></a></div>
-      <div class="dishcard"><a id="card-image" href="#"><img src="./src/Image/Banner/card/Green and Cream Matcha 11.png" alt="toasted bread with berries"></a></div>
-      <div class="dishcard"><a id="card-image" href="#"><img src="./src/Image/Banner/card/cocktail 12.png" alt="toasted bread with berries"></a></div>
-      <div class="dishcard"><a id="card-image" href="#"><img src="./src/Image/Banner/card/sandwich 13.png" alt="toasted bread with berries"></a></div>
-      <div class="dishcard"><a id="card-image" href="#"><img src="./src/Image/Banner/card/cookies 14.png" alt="toasted bread with berries"></a></div>
-      <div class="dishcard"><a id="card-image" href="#"><img src="./src/Image/Banner/card/Matcha 15.png" alt="toasted bread with berries"></a></div>
-      <div class="dishcard"><a id="card-image" href="#"><img src="./src/Image/Banner/card/Pastel and Cute Iced Matcha Latte 16.png" alt="toasted bread with berries"></a></div>
-      <div class="dishcard"><a id="card-image" href="#"><img src="./src/Image/Banner/card/Mango Drinks 17.png" alt="toasted bread with berries"></a></div>
-      <div class="dishcard"><a id="card-image" href="#"><img src="./src/Image/Banner/card/Croissant 18.png" alt="toasted bread with berries"></a></div>
-      <div class="dishcard"><a id="card-image" href="#"><img src="./src/Image/Banner/card/Strawberry Cake 19.png" alt="toasted bread with berries"></a></div>
-      <div class="dishcard"><a id="card-image" href="#"><img src="./src/Image/Banner/card/Chocolate Cake 20.png" alt="toasted bread with berries"></a></div>
-      <div class="dishcard"><a id="card-image" href="#"><img src="./src/Image/Banner/card/Brown Traditional Bakery pie 21.png" alt="toasted bread with berries"></a></div>
-      <div class="dishcard"><a id="card-image" href="#"><img src="./src/Image/Banner/card/Blueberry Cheesecake 22.png" alt="toasted bread with berries"></a></div>
-      <div class="dishcard"><a id="card-image" href="#"><img src="./src/Image/Banner/card/how to make chocolate 23.png" alt="toasted bread with berries"></a></div>
-      <div class="dishcard"><a id="card-image" href="#"><img src="./src/Image/Banner/card/doughnut 24.png" alt="toasted bread with berries"></a></div>
-      <div class="dishcard"><a id="card-image" href="#"><img src="./src/Image/Banner/card/Red Cream Elegant drink 25.png" alt="toasted bread with berries"></a></div>
-      <div class="dishcard"><a id="card-image" href="#"><img src="./src/Image/Banner/card/hotdog 26.png" alt="toasted bread with berries"></a></div>
-      <div class="dishcard"><a id="card-image" href="#"><img src="./src/Image/Banner/card/French Fries 27.png" alt="toasted bread with berries"></a></div>
-     </div>
+        <!-- banner session -->
+        <div class="banner-container">
+          <img
+            id="banner"
+            src="./src/Image/Banner/banner.png"
+            alt="banner image"
+          />
+        </div>
+        <!-- END -->
+        <!-- filter session -->
+        <div class="filter-container">
+          <div class="filter-header">
+            <h1 class="filter-headline" id="filter-firstline">
+              What to
+              <h1 class="filter-headline" id="filter-secondline">Cook</h1>
+              <h1 class="filter-headline" id="filter-question">?</h1>
+            </h1>
+          </div>
+          <div class="filter-mainu-container">
+            <span class="filter-mainu"><a href="#">all type</a></span>
+            <span class="filter-mainu"><a href="#">appetizers</a></span>
+            <span class="filter-mainu"><a href="#">main courses</a></span>
+            <span class="filter-mainu"><a href="#">salads & sides</a></span>
+            <span class="filter-mainu"
+              ><a href="#">vegetarian delights</a></span
+            >
+            <span class="filter-mainu"
+              ><a href="#">internatinal flavors</a></span
+            >
+            <span class="filter-mainu"><a href="#">desserts & sweets</a></span>
+            <span class="filter-mainu"><a href="#">healthy eats</a></span>
+            <span class="filter-mainu"
+              ><a href="#">quick & easy supper</a></span
+            >
+          </div>
+        </div>
+        <!-- END -->
+        <div class="dishcard-container">
+          <div class="dishcard">
+            <a id="card-image" href="#"
+              ><img
+                src="./src/Image/Banner/card/Beige Modern Breakfast Suggestion 1.png"
+                alt="toasted bread with berries"
+            /></a>
+          </div>
+          <div class="dishcard">
+            <a id="card-image" href="#"
+              ><img
+                src="./src/Image/Banner/card/blue and beige organic recipe 2.png"
+                alt="toasted bread with berries"
+            /></a>
+          </div>
+          <div class="dishcard">
+            <a id="card-image" href="#"
+              ><img
+                src="./src/Image/Banner/card/Brown Green White Playful Croissant 3.png"
+                alt="toasted bread with berries"
+            /></a>
+          </div>
+          <div class="dishcard">
+            <a id="card-image" href="#"
+              ><img
+                src="./src/Image/Banner/card/Mocktail drink 4.png"
+                alt="toasted bread with berries"
+            /></a>
+          </div>
+          <div class="dishcard">
+            <a id="card-image" href="#"
+              ><img
+                src="./src/Image/Banner/card/Philippines Local Food  5.png"
+                alt="toasted bread with berries"
+            /></a>
+          </div>
+          <div class="dishcard">
+            <a id="card-image" href="#"
+              ><img
+                src="./src/Image/Banner/card/Philippines Local Food Cooking Carousel 6.png"
+                alt="toasted bread with berries"
+            /></a>
+          </div>
+          <div class="dishcard">
+            <a id="card-image" href="#"
+              ><img
+                src="./src/Image/Banner/card/pizza margaritas 7.png"
+                alt="toasted bread with berries"
+            /></a>
+          </div>
+          <div class="dishcard">
+            <a id="card-image" href="#"
+              ><img
+                src="./src/Image/Banner/card/Red Pink Strawberry Beverage 8.png"
+                alt="toasted bread with berries"
+            /></a>
+          </div>
+          <div class="dishcard">
+            <a id="card-image" href="#"
+              ><img
+                src="./src/Image/Banner/card/toasted bread with berries 9.png"
+                alt="toasted bread with berries"
+            /></a>
+          </div>
+          <div class="dishcard">
+            <a id="card-image" href="#"
+              ><img
+                src="./src/Image/Banner/card/sushi toast 10.png"
+                alt="toasted bread with berries"
+            /></a>
+          </div>
+          <div class="dishcard">
+            <a id="card-image" href="#"
+              ><img
+                src="./src/Image/Banner/card/Green and Cream Matcha 11.png"
+                alt="toasted bread with berries"
+            /></a>
+          </div>
+          <div class="dishcard">
+            <a id="card-image" href="#"
+              ><img
+                src="./src/Image/Banner/card/cocktail 12.png"
+                alt="toasted bread with berries"
+            /></a>
+          </div>
+          <div class="dishcard">
+            <a id="card-image" href="#"
+              ><img
+                src="./src/Image/Banner/card/sandwich 13.png"
+                alt="toasted bread with berries"
+            /></a>
+          </div>
+          <div class="dishcard">
+            <a id="card-image" href="#"
+              ><img
+                src="./src/Image/Banner/card/cookies 14.png"
+                alt="toasted bread with berries"
+            /></a>
+          </div>
+          <div class="dishcard">
+            <a id="card-image" href="#"
+              ><img
+                src="./src/Image/Banner/card/Matcha 15.png"
+                alt="toasted bread with berries"
+            /></a>
+          </div>
+          <div class="dishcard">
+            <a id="card-image" href="#"
+              ><img
+                src="./src/Image/Banner/card/Pastel and Cute Iced Matcha Latte 16.png"
+                alt="toasted bread with berries"
+            /></a>
+          </div>
+          <div class="dishcard">
+            <a id="card-image" href="#"
+              ><img
+                src="./src/Image/Banner/card/Mango Drinks 17.png"
+                alt="toasted bread with berries"
+            /></a>
+          </div>
+          <div class="dishcard">
+            <a id="card-image" href="#"
+              ><img
+                src="./src/Image/Banner/card/Croissant 18.png"
+                alt="toasted bread with berries"
+            /></a>
+          </div>
+          <div class="dishcard">
+            <a id="card-image" href="#"
+              ><img
+                src="./src/Image/Banner/card/Strawberry Cake 19.png"
+                alt="toasted bread with berries"
+            /></a>
+          </div>
+          <div class="dishcard">
+            <a id="card-image" href="#"
+              ><img
+                src="./src/Image/Banner/card/Chocolate Cake 20.png"
+                alt="toasted bread with berries"
+            /></a>
+          </div>
+          <div class="dishcard">
+            <a id="card-image" href="#"
+              ><img
+                src="./src/Image/Banner/card/Brown Traditional Bakery pie 21.png"
+                alt="toasted bread with berries"
+            /></a>
+          </div>
+          <div class="dishcard">
+            <a id="card-image" href="#"
+              ><img
+                src="./src/Image/Banner/card/Blueberry Cheesecake 22.png"
+                alt="toasted bread with berries"
+            /></a>
+          </div>
+          <div class="dishcard">
+            <a id="card-image" href="#"
+              ><img
+                src="./src/Image/Banner/card/how to make chocolate 23.png"
+                alt="toasted bread with berries"
+            /></a>
+          </div>
+          <div class="dishcard">
+            <a id="card-image" href="#"
+              ><img
+                src="./src/Image/Banner/card/doughnut 24.png"
+                alt="toasted bread with berries"
+            /></a>
+          </div>
+          <div class="dishcard">
+            <a id="card-image" href="#"
+              ><img
+                src="./src/Image/Banner/card/Red Cream Elegant drink 25.png"
+                alt="toasted bread with berries"
+            /></a>
+          </div>
+          <div class="dishcard">
+            <a id="card-image" href="#"
+              ><img
+                src="./src/Image/Banner/card/hotdog 26.png"
+                alt="toasted bread with berries"
+            /></a>
+          </div>
+          <div class="dishcard">
+            <a id="card-image" href="#"
+              ><img
+                src="./src/Image/Banner/card/French Fries 27.png"
+                alt="toasted bread with berries"
+            /></a>
+          </div>
+        </div>
       </div>
-     
-  </main>
-  <!-- END -->
-   <!-- this is the footer part -->
-    <footer><h1>footer</h1></footer>
+    </main>
+    <!-- END -->
+    <!-- this is the footer part -->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-emailContainer">
+          <h1 class="footer-logo">miso</h1>
+          <p>Stay in the know by subscribe to our Miso</p>
+          <div>
+            <input type="email" placeholder="Enter your Email address" />
+            <button>Submit</button>
+          </div>
+        </div>
+
+        <div class="footer-linkesContainer">
+          <div class="footer-company-linksContainer">
+            <span class="footer-linksHead"><a href="#">company</a></span>
+            <a href="#">home</a>
+            <a href="#">about</a>
+            <a href="#">team</a>
+            <a href="#">career</a>
+          </div>
+          <div class="footer-contact-linksContainer">
+            <span class="footer-linksHead"><a href="#">documentation</a></span>
+            <a href="#">help center</a>
+            <a href="#">contact</a>
+            <a href="#">FAQ</a>
+            <a href="#">privacy policy</a>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="footer-copyright">
+        <p>&copy; Miso All Rights Reserved 2025</p>
+      </div>
+    </footer>
     <!-- End -->
     <script src="./index.js"></script>
   </body>
