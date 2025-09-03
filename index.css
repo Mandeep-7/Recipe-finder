@@ -103,14 +103,15 @@ main{
   background: #fff;
   color: #333;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  margin: 5vh 0;
 }
 .filter-header{    
     display: flex;
     justify-content: center;
-    /* margin-top: 10px; */
 }
 .filter-headline{
     margin: 3px;
@@ -128,11 +129,6 @@ main{
   font-weight: bold;
   margin-bottom: 20px;
 }
-
-/* .category-section h2 span {
-  color: orange; /* highlight "Cook" */
-} */
-
 .categories {
   display: flex;
   flex-wrap: wrap;
