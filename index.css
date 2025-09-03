@@ -153,14 +153,9 @@ main{
 }
 
 .category:hover {
-  background: #eaeaea;
-}
-
-.category.active {
   background: #333;
-  color: #fff;
+   color: #fff;
 }
-
 .dishcard-container{
     width: 100%;
     height: auto;
