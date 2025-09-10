@@ -84,6 +84,10 @@ header{
     justify-content: center;
     border-radius: 50%;
     background-color:#f7f7f7;
+    cursor: pointer;
+}
+.profile i{
+    cursor: pointer;
 }
 /* End */
 /* main session */
@@ -97,6 +101,7 @@ main{
     height: 1%;
     width: 100%;
     border-radius: 30px;
+    cursor: pointer;
 }
 .filter-container{
   font-family: Arial, sans-serif;
@@ -164,18 +169,18 @@ main{
     justify-content: center;
     align-items: center;
 }
-.dishcard{
-    height: 15em;
-    width: 10em;
-    border-radius: 15px;
-    margin: 5px;
-}
 #card-image img{
      height: 15em;
     width: 10em;
     border-radius: 15px;
+    margin: 5px;
 }
-
+.dishcard a{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
 /* End */
 /* this is the footer section */
 
